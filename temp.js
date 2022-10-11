@@ -1,0 +1,1 @@
+document.getElementById("code").innerHTML=localStorage.getItem("passc")
