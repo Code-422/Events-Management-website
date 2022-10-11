@@ -1,0 +1,200 @@
+body{
+    background-image:url(template.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: primary-font, Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family : overlay-font;
+    src: url(fonts/orange\ juice\ 2.0.ttf);
+}
+@font-face {
+    font-family : primary-font;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+:root{
+    --lightPink : rgb(255, 194, 180);
+    --darkPink : #FF8882;
+    --darkTeal : #194350;
+    --lightTeal : #9DBEB9;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+a:active {
+    text-decoration: none;
+    color: black;
+}
+/*////////////////////////////////// Navbar //////////////////////////////////////////*/
+nav{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+    width: fit-content;
+    z-index: 696969696969696969;
+}
+.navbar{
+    display: flex;
+    width: 20vw;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 69vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar div{
+    background-color: whitesmoke;
+    border-radius: 69vw;
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
+}
+.navbar > div:hover{
+    background-color: whitesmoke;
+    transition-duration: 0.35s;
+}
+.navbar a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: clamp(20px, 3.5vw, 30px);
+    height: clamp(20px, 3.5vw, 30px);
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+h1{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.form{
+    height:450px; width:550px;
+    margin: auto;
+    padding-right: 15%;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    /* position:fixed;
+    top:200px; left:310px; bottom:60px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgba(245, 245, 245,0.5);
+}
+input[type=text]{
+    width:400px;height: 30px;
+    border:none;
+    border-bottom:3px solid #e1bf9c;
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+form>div{
+    display: inline;
+}
+hr{
+    height:2px;width: 403px;
+    background-color: #e1bf9c;
+}
+#club_name{
+    position:relative;
+    left:200px; bottom:20px;
+    height: 25px; width:190px;
+}
+#club_name:hover, #club_name:focus {
+    color: rgb(15, 15, 15);
+    background-color: #faf4de;
+  }
+#bd{
+    position: relative;
+    left: 135px;
+}
+#bt{
+    position:relative;
+    left:330px;
+    bottom:24px;
+}
+#ed{
+    position: relative;
+    left: 146px;
+}
+#et{
+    position:relative;
+    left: 149px;
+}
+form>div{
+    display: inline;
+}
+.ven{
+    position:relative;
+    left: 150px;
+}
+.ven2{
+    position: relative;
+    left:190px;
+}
+textarea{
+    margin-left: 3px;
+    margin-top: 6px;
+    border:none;
+    resize: none;
+    background-color: transparent;
+}
+#sponsors{
+    display:block;
+    height: 43px;width:500px;
+    overflow: hidden;
+}
+.plus{
+    width: 25px;
+    position:relative;
+    left:30px;bottom:15px;
+}
+.del{
+    width:20px;
+    position:relative;
+    right:15px; bottom:17px;
+}
+#but{
+    display: flex;
+    height: 40px;
+    width: 140px;
+    border-radius: 7%;
+    margin-top: 30px;
+    background-color:brown;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    line-height: 40px;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(211, 207, 202);
+}
+::-webkit-scrollbar-corner{
+    visibility: hidden;
+}
+
+
+
